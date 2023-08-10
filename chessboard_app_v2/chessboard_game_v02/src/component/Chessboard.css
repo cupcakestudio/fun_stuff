@@ -1,5 +1,21 @@
 #board {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(8,1fr);
   width: 500px;
   height: 500px;
+  background-color: #1037b9;
+}
+
+#board  .tile {
+width: 62.5px;
+height: 62.5px;
+
+}
+
+#board .tile_black {
   background-color: #779558;
+}
+#board .tile_white {
+  background-color: aliceblue;
 }
